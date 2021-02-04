@@ -4,6 +4,12 @@
  * @param {number} n
  * @returns {number}
  */
+
 function sum(m, n) {
-  // ваш код...
+  let sum = m + n;
+  alert(sum);
 }
+
+
+// пример
+sum(10, 20);
