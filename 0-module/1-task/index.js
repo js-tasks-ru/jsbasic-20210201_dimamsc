@@ -6,8 +6,8 @@
  */
 
 function sum(m, n) {
-  let sum = m + n;
-  alert(sum);
+  let result = m + n;
+  console.log(result);
 }
 
 
