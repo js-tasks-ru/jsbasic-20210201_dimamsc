@@ -5,5 +5,9 @@
  * @returns {number}
  */
 function sum(m, n) {
-  // ваш код...
+  let result = m + n;
+  console.log(result);
 }
+
+// Пример
+sum(25,3);
