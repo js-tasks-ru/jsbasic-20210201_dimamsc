@@ -6,8 +6,5 @@
  */
 function sum(m, n) {
   let result = m + n;
-  console.log(result);
+  return result;
 }
-
-// Пример
-sum(25,3);
