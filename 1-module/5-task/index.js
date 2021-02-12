@@ -5,5 +5,14 @@
  * @returns {string}
  */
 function truncate(str, maxlength) {
-  // ваш код...
+  let lengthStr = str.length;
+  if ( lengthStr > maxlength ) {
+    return str.slice(0, maxlength);
+  } else {
+    return str;
+  }
 }
+
+let newString = truncate("Василий", 10);
+console.log(newString);
+
