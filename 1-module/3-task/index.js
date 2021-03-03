@@ -10,6 +10,5 @@ function ucFirst(str) {
   return firstLetter + restLetters;
 }
 
-let newString = ucFirst("");
+let newString = ucFirst("поколение");
 console.log(newString);
-
