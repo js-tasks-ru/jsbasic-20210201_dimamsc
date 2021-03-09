@@ -1,12 +1,3 @@
-let trueOrFalse;
-
 function checkSpam(str) {
-  if (str.includes("1xBet") || str.includes("XXX")) {
-    trueOrFalse = true;
-  } else {
-    trueOrFalse = false;
-  }
-  console.log(trueOrFalse);
+  // ваш код...
 }
-
-checkSpam("fXXXfsdfs1xBet");
