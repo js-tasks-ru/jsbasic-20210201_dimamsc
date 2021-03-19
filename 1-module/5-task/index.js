@@ -4,8 +4,10 @@
  * @param {number} maxlength
  * @returns {string}
  */
+
+let lengthStr = str.length;
+
  function truncate(str, maxlength) {
-  let lengthStr = str.length;
   if ( lengthStr > maxlength ) {
     return str.slice(0, maxlength);
   } else {
@@ -13,5 +15,4 @@
   }
 }
 
-let newString = truncate("Василий", 10);
-console.log(newString);
+truncate("Василий", 10);

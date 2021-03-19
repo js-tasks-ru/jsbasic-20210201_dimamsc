@@ -32,7 +32,7 @@ let thirdPlace = {
 
 let figSkatingResults = [firstPlace, secondPlace, thirdPlace];
 
-function showFigSkating(results, minScore) {
+function showSalary(results, minScore) {
   let namesStr = "";
   let finalNamesStr = "";
   let spesialSymb = "";
@@ -42,7 +42,7 @@ function showFigSkating(results, minScore) {
       namesStr + results[i].name + "," + " " + results[i].shortProgScore + "\n";
   }
   finalNamesStr = namesStr.slice(0, -1);
-  console.log(finalNamesStr);
+  return finalNamesStr;
 }
 
-showFigSkating(figSkatingResults, minShortProgScore);
+console.log(showSalary(figSkatingResults, minShortProgScore));

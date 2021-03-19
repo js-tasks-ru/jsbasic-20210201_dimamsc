@@ -23,8 +23,8 @@ function namify() {
   for (let i = 0; i < biathletes.length; i++) {
     fullNames.push(biathletes[i].fullName);
   }
-  console.log(fullNames);
+  return fullNames;
 }
 
 // вызов функции
-namify();
+console.log(namify(biathletes));

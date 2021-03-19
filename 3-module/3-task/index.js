@@ -9,7 +9,7 @@ function camelize(str) {
     upLetter = arrSeparate[i].charAt(0).toUpperCase() + arrSeparate[i].slice(1);
     newStr = newStr + upLetter;
   }
-  console.log(newStr);
+  return newStr;
 }
 
-camelize(str);
+console.log(camelize(str));

@@ -16,8 +16,7 @@ function factorial(n) {
       counter++;
     }
   }
-
-  console.log(value);
+  return value;
 }
 
-// factorial(6);
+console.log(factorial(0));
